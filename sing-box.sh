@@ -477,8 +477,7 @@ EOF
     ],
     "rules": [
       {
-        "rule_set": [],
-        "outbound": "wireguard-out"
+        "rule_set": []
       }
     ],
     "final": "direct"
