@@ -60,7 +60,7 @@ def get_architecture():
     raise Exception(f"Unsupported architecture: {system} {arch}")
 
 def download_file(url, dest_path):
-    print(f"Downloading from: {url}")
+    # print(f"Downloading from: {url}")
     opener = urllib.request.build_opener()
     opener.addheaders = [
         ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'),
@@ -231,7 +231,7 @@ def main():
         log_thread.start()
         
         sleep(18000)
-        print('\nLogs will be deleted in 90 seconds, you can copy the above nodes!')
+        # print('\nLogs will be deleted in 90 seconds, you can copy the above nodes!')
         
         sleep(90000)
         
